@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "pack_format": 84,
+    "min_format": 15,
+    "max_format": 200,
+    "supported_formats": {"min_inclusive": 15, "max_inclusive": 200},
+    "description": "Seals!!!!!!!!"
+  },
+}
