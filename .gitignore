@@ -1,0 +1,7 @@
+/vanilla/*
+
+!/seal-texture-pack/assets/
+!/seal-texture-pack/pack.mcmeta
+
+# Don't ignore the .gitignore itself
+!.gitignore
