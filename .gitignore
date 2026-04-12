@@ -2,6 +2,7 @@
 
 !/seal-texture-pack/assets/
 !/seal-texture-pack/pack.mcmeta
+!/seal-texture-pack/pack.png
+!/seal-texture-pack/
 
-# Don't ignore the .gitignore itself
 !.gitignore
