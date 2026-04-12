@@ -205,7 +205,7 @@
   "subtitles.item.underwater_saddle.equip": "Saddle equips underwater",
   "subtitles.entity.warden.nearby_close": "Warden approaches (1/4)",
   "subtitles.entity.warden.nearby_closer": "Warden advances (2/4)",
-  "subtitles.entity.warden.nearby_closest": "Warden draws close (3/4)\nWARDEN SPAWNING ON NEXT SHRIEK!",
+  "subtitles.entity.warden.nearby_closest": "Warden draws close (3/4), WARDEN SPAWNING ON NEXT SHRIEK!",
   "advancements.adventure.totem_of_undying.description": "Use a Totem of Tux to cheat death",
   "advancements.adventure.totem_of_undying.title": "I'm glad I installed Linux!",
   "item.minecraft.totem_of_undying": "Totem of Tux"
