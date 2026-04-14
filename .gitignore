@@ -1,4 +1,7 @@
 /vanilla/*
+/vanilla/
+/temp/*
+/temp/
 
 !/seal-texture-pack/assets/
 !/seal-texture-pack/pack.mcmeta
