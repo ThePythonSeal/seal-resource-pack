@@ -96,15 +96,17 @@ def ask_mod_depend(key,val):
             data[i]["enable"]=ask_mod_depend(i,data[i])
     return a
 for key,val in data.items():
-    if val.get("enable")==True:
+    if val.get("enable")==True or val.get("force",False)==True:
+        data[key]["enable"]=True
         continue
     else:
         data[key]["enable"]=ask_mod_depend(key,val)
-
-print(data)
 
 Path("build/assets/minecraft").mkdir(exist_ok=True,parents=True)
 
 for key,val in data.items():
     if val["enable"]:
-        merge_dirs("build/assets/minecraft", "modules/"+key, "build/assets/minecraft", val.get("merge", "overwrite"))
+        if val.get("root",False):
+            merge_dirs("build/", "modules/"+key, "build/", val.get("merge", "overwrite"))
+        else:
+            merge_dirs("build/assets/minecraft", "modules/"+key, "build/assets/minecraft", val.get("merge", "overwrite"))

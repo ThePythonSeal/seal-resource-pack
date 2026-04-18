@@ -1,17 +1,26 @@
 {
+  "base":{
+    "force":true,
+    "root":true
+  },
   "totem_of_tux":{
-    "default": false,
+    "default":false,
     "depends":[],
     "merge":"overwrite"
   },
   "totem_of_tux_particle":{
-    "default": false,
+    "default":false,
     "depends":[],
     "merge":"overwrite"
   },
   "totem_of_tux_name":{
-    "default": false,
+    "default":false,
     "depends":["totem_of_tux"],
-    "merge":"insert"
+    "merge":"append"
+  },
+  "base_end":{
+    "force":true,
+    "root":true,
+    "merge":"append"
   }
 }
