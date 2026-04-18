@@ -2,14 +2,10 @@
 /vanilla/
 /temp/*
 /temp/
-/build/*
-/build/
 
 !/seal-texture-pack/assets/
 !/seal-texture-pack/pack.mcmeta
 !/seal-texture-pack/pack.png
 !/seal-texture-pack/
-!/modules/
-!/modules/*
 
 !.gitignore
