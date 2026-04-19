@@ -1,0 +1,54 @@
+{
+  "base":{
+    "force":true,
+    "filegroups": [
+        {
+            "files":[
+                "pack.png",
+                "pack.mcmeta"
+            ],
+            "merge":"overwrite",
+            "root":true
+        }
+    ]
+  },
+  "totem_of_tux":{
+    "default":false,
+    "depends":[],
+    "filegroups": [
+        {
+            "files":[
+                "textures/item/totem_of_undying.png"
+            ],
+            "merge":"overwrite"
+        }
+    ]
+    
+  },
+  "totem_of_tux_particle":{
+    "default":false,
+    "depends":[],
+    "filegroups": [
+        {
+            "files":[
+                "textures/particle/totem_of_tux_particle/*.png",
+                "particles/totem_of_undying.json"
+            ],
+            "merge":"overwrite"
+        }
+    ]
+    
+  },
+  "totem_of_tux_name":{
+    "default":false,
+    "depends":["totem_of_tux"],
+        "filegroups": [
+        {
+            "files":[
+                {"src":"lang_modules/en_us/totem_of_tux_name.json","dst":"lang/en_us.json"}
+            ],
+            "merge":"json"
+        }
+    ]
+  }
+}
