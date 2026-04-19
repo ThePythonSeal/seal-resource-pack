@@ -1,0 +1,14 @@
+{
+  "filled_map.buried_treasure": "Map to Buried Treasure",
+  "filled_map.explorer_jungle": "Map to Jungle Pyramid",
+  "filled_map.explorer_swamp": "Map to Witch Hut",
+  "filled_map.mansion": "Map to Woodland Mansion",
+  "filled_map.monument": "Map to Ocean Monument",
+  "filled_map.trial_chambers": "Map to Trial Chamber",
+  "filled_map.unknown": "Map to... huh?",
+  "filled_map.village_desert": "Map to Desert Village",
+  "filled_map.village_plains": "Map to Plains Village",
+  "filled_map.village_savanna": "Map to Savanna Village",
+  "filled_map.village_snowy": "Map to Snowy Village",
+  "filled_map.village_taiga": "Map to Taiga Village"
+}
